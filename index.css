@@ -1,0 +1,312 @@
+html {
+  height: 100%;
+}
+
+/* body{
+  color: aliceblue;
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 10%;
+} */
+
+/* #container-quiz {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+}
+
+#container-quiz li {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  border: solid grey 1px;
+  border-radius: 90px;
+  background-color: rgba(31, 31, 31, 0.2);
+  color: rgb(255, 255, 255);
+}
+
+
+input[type="radio"] {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+label{
+  display: block;
+  padding: 16px;
+  text-align: center;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  z-index: 100;
+  cursor: pointer;
+} 
+
+
+
+input[type="radio"]:checked+label,
+.Checked+label {
+  background: #d20094;
+  border-radius: 90px;
+}
+
+.container{
+  width: 100%;
+  border-radius: 18px;
+} */
+
+/* #next {
+
+  padding: 10px 30px;
+  position: absolute;
+  bottom: 105px;
+  right: 121px;
+  background: #00ffff;
+  border-radius: 8px;
+  border: solid 3px rgba(255, 255, 255, 0.731);
+  border-bottom: solid 3px rgba(199, 199, 199, 0.687);
+  cursor: pointer;
+} */
+
+
+/* Codice di MATTIA E MARTINA */
+body {
+  margin: 3% 6%;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  color: white;
+}
+
+#top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
+  justify-content: space-between;
+}
+
+#top-bar img {
+  height: 30px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  width: 400px;
+}
+
+#instruction div {
+  width: 470px;
+  margin-bottom: 2.6%;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+#instruction h2 {
+  color: #D20094;
+  margin-bottom: 0;
+}
+
+#instruction div,
+li {
+  font-size: 16px;
+}
+
+#under-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#start-quiz {
+  position: absolute;
+  bottom: 245px;
+  right: 121px;
+  background-color: #00FFFF;
+  color: black;
+  font-weight: bold;
+  padding: 15px 40px;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border: none;
+}
+
+#start-quiz:hover {
+  box-shadow: 0 5px 25px 1px #00FFFF;
+
+}
+
+#under-bar {
+  margin-top: 3%;
+}
+
+#nQuestion {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  /* display: none; */
+  margin-top: 22%;
+
+}
+
+
+
+#nQuestion span {
+  color: #D20094;
+}
+
+#titleQuestion {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  width: auto;
+  margin: 0 27px;
+}
+
+#answerGroup {
+  list-style: none;
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  height: 150px;
+
+}
+
+input[type="radio"] {
+  display: block;
+  width: 50%;
+  min-width: 150px;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: auto;
+  bottom: 0;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+
+#answerGroup {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: 5% 15%;
+}
+
+#answerGroup li label {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-bottom: 0.5px solid #fff ;
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box;
+  margin: 0 10%;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 90px;
+  min-width: 150px;
+}
+
+input[type="radio"]:checked+label,
+.Checked+label {
+  background-color: #d20094;
+  border-radius: 90px;
+}
+
+#answerGroup li {
+  width: 50%;
+  min-width: 40%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#container-quiz {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#top-bar div{
+  background-color: #ffffff;
+  color: #D20094;
+  font-size: 20px;
+  border: solid grey 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Codice di Martina */
+
+
+.results h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+  font-size: 60px;
+}
+
+.results-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23294f;
+  border-radius: 5px;
+  padding: 30px, 100px;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 650px;
+  height: 100px;  
+}
+
+
+.results-detail ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.results-detail ul li {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 30px;
+}
+
+.border {
+  border-left: 1px solid #373e6b;
+}
